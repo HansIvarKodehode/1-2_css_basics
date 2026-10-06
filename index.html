@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Basics</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- 
+    This favicon was generated using the following graphics from Twitter Twemoji:
+    - Graphics Title: 1f3e0.svg
+    - Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
+    - Graphics Source: https://github.com/twitter/twemoji/blob/v14.0.2/assets/svg/1f3e0.svg
+    - Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+     -->
+    <!-- external font, orbitron, google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 
+    The 3 types of css
+    -->
+
+    <!-- inline css -->
+    <h1 style="color: red">This is an inline css</h1>
+
+    <p style="background-color: burlywood; color: green">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nam,
+      dicta fugit vel voluptas corporis facere reprehenderit. Esse, omnis
+      repellat.
+    </p>
+
+    <!-- 
+    internal css example.
+    the actual <style> should be in head, but remains here for clarity's sake
+    memo: inline overrules internal, which might overrule external.
+    -->
+    <style>
+      button {
+        color: blue;
+        font-family: "Orbitron", sans-serif;
+      }
+    </style>
+    <h2>This is an internal css</h2>
+
+    <button>Hello, World!</button>
+
+    <main>
+      <section>
+        <h2>This is a section</h2>
+        <p>This is a paragraph</p>
+      </section>
+      <section>
+        <img src="" alt="no picture" />
+      </section>
+      <section>
+        <h2>This is also section</h2>
+        <p>This is also paragraph</p>
+      </section>
+    </main>
+  </body>
+</html>

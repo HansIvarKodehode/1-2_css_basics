@@ -1,0 +1,33 @@
+.orbitron-uniquifier {
+  font-family: "Orbitron", sans-serif;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+}
+
+h2 {
+  color: whitesmoke;
+  text-decoration: wavy underline;
+  font-size: 30px;
+  text-shadow:
+    -1px 0 #222222,
+    0 1px #222222,
+    1px 0 #222222,
+    0 -1px #222222;
+  text-align: end;
+}
+
+main {
+  border: 2px dotted black;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 30vw;
+  margin: 3px;
+}
